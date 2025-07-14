@@ -20,9 +20,10 @@ const ProjectsSection = () => {
       </div>
 
       <div className="grid lg:grid-cols-2 gap-4 mt-8">
-        {portfolioProjects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+        {portfolioProjects.map((project) => {
+          console.log("project", project);
+          return <ProjectCard key={project.id} project={project} />;
+        })}
       </div>
     </div>
   );

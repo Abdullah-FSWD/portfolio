@@ -68,7 +68,7 @@ export const portfolioProjects = [
       "stripe",
       "clerk-auth",
     ],
-    liveDemoUrl: "talk-ease-psi.vercel.app",
+    liveDemoUrl: "https://talk-ease-psi.vercel.app",
     sourceCodeUrl: "https://github.com/Abdullah-FSWD/TalkEase",
   },
   {
@@ -89,7 +89,7 @@ export const portfolioProjects = [
       "zod",
       "clerk-auth",
     ],
-    liveDemoUrl: "lms-abdullah.vercel.app/",
+    liveDemoUrl: "https://lms-abdullah.vercel.app/",
     sourceCodeUrl: "https://github.com/Abdullah-FSWD/lms",
   },
   {
@@ -110,7 +110,7 @@ export const portfolioProjects = [
       "zod",
       "clerk-auth",
     ],
-    liveDemoUrl: "zotion-kohl.vercel.app/",
+    liveDemoUrl: "https://zotion-kohl.vercel.app/",
     sourceCodeUrl: "https://github.com/Abdullah-FSWD/notion-clone",
   },
 ];

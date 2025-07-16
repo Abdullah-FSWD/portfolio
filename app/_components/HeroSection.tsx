@@ -1,7 +1,5 @@
 import { ChevronRight, Download } from "lucide-react";
 import ShinyButton from "./ui/ShinyButton";
-import { AnimatedTooltip } from "./ui/Tooltip";
-import { tooltipItems } from "../_lib/constants";
 import Link from "next/link";
 import { TextGenerateEffect } from "./ui/TextGenerate";
 
@@ -38,16 +36,16 @@ const HeroSection = () => {
             <ShinyButton icon={<ChevronRight />}>
               <Link href="#work">See My Work</Link>
             </ShinyButton>
-            <a
+            <Link
               href="/resume/CV_en.pdf"
-              download
               className="flex items-center gap-2.5 group"
+              target="_blank"
             >
               <Download className="text-primary" />
               <span className="group-hover:text-white/70 transition-colors duration-200 font-semibold">
                 Download CV
               </span>
-            </a>
+            </Link>
           </div>
           {/* <div className="flex flex-row items-center justify-center mb-10 w-full mt-8">
             <AnimatedTooltip items={tooltipItems} />

@@ -68,7 +68,9 @@ export const Navbar = ({
               "relative text-neutral-50 items-center flex space-x-1 hover:text-neutral-300"
             )}
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
+            <span className="block sm:hidden" title={navItem.name}>
+              {navItem.icon}
+            </span>
             <span className="hidden sm:block font-medium">{navItem.name}</span>
           </Link>
         ))}
